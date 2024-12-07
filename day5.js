@@ -118,7 +118,6 @@ for (const update of updates) {
     totalPart2 += getMiddlePage(update);
   }
 }
-//Part 1 total 7365
-// Part 2 total 5770
+
 console.log("Part 1 total", totalPart1);
 console.log("Part 2 total", totalPart2);

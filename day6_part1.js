@@ -103,8 +103,7 @@ while (
     console.error("It's borked, space is ", nextSpace);
   }
 }
-//Total Moves: 5480;
-//Total Distinct Moves: 4964;
+
 console.log(moves);
 console.log(moveArr.length);
 // console.log(JSON.stringify(moveArr));

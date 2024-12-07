@@ -64,4 +64,3 @@ for (let i = 0; i < lines.length; i++) {
 }
 
 console.log(total);
-//TOTAL WAS 1936

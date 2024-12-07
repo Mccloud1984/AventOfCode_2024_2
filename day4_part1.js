@@ -81,4 +81,3 @@ for (const ySlice of ySlices) {
   }
 }
 console.log("Final total", total);
-//TOTAL ANSWER WAS 2633
