@@ -1,6 +1,5 @@
-const fs = require("fs");
-
-const text = fs.readFileSync("./data/day4.txt").toLocaleString();
+import { importFile } from "./utils/fileImport.mjs";
+const text = importFile("4");
 
 function checkForXMAS(grid) {
   if (grid[0][0] === "M") {

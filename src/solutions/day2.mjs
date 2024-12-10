@@ -1,6 +1,5 @@
-const fs = require("node:fs");
-
-const text = fs.readFileSync("./data/day2.txt").toLocaleString();
+import { importFile } from "./utils/fileImport.mjs";
+const text = importFile("2");
 const logFile = "./data/day2.csv";
 if (fs.existsSync(logFile)) fs.rmSync(logFile);
 const writeStream = fs.createWriteStream(logFile);

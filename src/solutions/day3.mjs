@@ -1,6 +1,5 @@
-const fs = require("fs");
-
-const text = fs.readFileSync("./data/day3.txt").toLocaleString();
+import { importFile } from "../utils/fileIO.mjs";
+const text = importFile("3");
 
 function part1() {
   const matches = text.match(/mul\([0-9]*,[0-9]*\)/g);

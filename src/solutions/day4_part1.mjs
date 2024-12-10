@@ -1,6 +1,5 @@
-const fs = require("fs");
-
-const text = fs.readFileSync("./data/day4.txt").toLocaleString();
+import { importFile } from "./utils/fileImport.mjs";
+const text = importFile("4");
 // console.log(text);
 const regexf = /XMAS/g;
 const regexb = /SAMX/g;

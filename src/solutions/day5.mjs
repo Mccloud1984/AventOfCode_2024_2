@@ -1,6 +1,5 @@
-const fs = require("fs");
-
-const text = fs.readFileSync("./data/day5.txt").toLocaleString();
+import { importFile } from "./utils/fileImport.mjs";
+const text = importFile("5");
 
 const lines = text.split("\n");
 console.log("Lines loaded", lines.length);

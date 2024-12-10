@@ -1,0 +1,15 @@
+{
+  "name": "aventofcode_2024_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "solution": "echo \"Hello ${npm_config_day}!\"; node ./src/solutions/day$npm_config_day.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
