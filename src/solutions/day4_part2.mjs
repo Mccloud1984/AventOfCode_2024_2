@@ -1,5 +1,5 @@
-import { importFile } from "./utils/fileImport.mjs";
-const text = importFile("4");
+import { importDayData } from "./utils/fileImport.mjs";
+const text = importDayData("4");
 
 function checkForXMAS(grid) {
   if (grid[0][0] === "M") {

@@ -1,5 +1,5 @@
-import { importFile } from "./utils/fileImport.mjs";
-const text = importFile("4");
+import { importDayData } from "./utils/fileImport.mjs";
+const text = importDayData("4");
 // console.log(text);
 const regexf = /XMAS/g;
 const regexb = /SAMX/g;

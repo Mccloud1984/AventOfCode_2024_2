@@ -1,7 +1,7 @@
 "strict";
-import { importFile, writeFile } from "../utils/fileIO.mjs";
+import { importDayData, writeFile } from "../utils/fileIO.mjs";
 
-const text = importFile(9);
+const text = importDayData(9);
 
 const freeSpace = ".";
 const spaceDivider = "|";

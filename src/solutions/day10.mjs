@@ -1,7 +1,7 @@
 "strict";
-import { importFile, writeFile } from "../utils/fileIO.mjs";
+import { importDayData, writeFile } from "../utils/fileIO.mjs";
 
-const text = importFile(10);
+const text = importDayData(10);
 const lines = text.split("\n");
 
 const trailStart = 0;

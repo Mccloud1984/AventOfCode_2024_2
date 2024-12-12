@@ -1,5 +1,5 @@
-import { importFile } from "../utils/fileIO.mjs";
-const text = importFile("3");
+import { importDayData } from "../utils/fileIO.mjs";
+const text = importDayData("3");
 
 function part1() {
   const matches = text.match(/mul\([0-9]*,[0-9]*\)/g);

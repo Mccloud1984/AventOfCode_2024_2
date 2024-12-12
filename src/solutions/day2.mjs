@@ -1,5 +1,5 @@
-import { importFile } from "./utils/fileImport.mjs";
-const text = importFile("2");
+import { importDayData } from "./utils/fileImport.mjs";
+const text = importDayData("2");
 const logFile = "./data/day2.csv";
 if (fs.existsSync(logFile)) fs.rmSync(logFile);
 const writeStream = fs.createWriteStream(logFile);

@@ -1,4 +1,4 @@
-import { importFile } from "../utils/fileIO.mjs";
+import { importDayData } from "../utils/fileIO.mjs";
 import chalk from "chalk";
 
 const operators = ["+", "*", "||"];
@@ -67,7 +67,7 @@ function testEvaluation(testValue, equationValues) {
   return ret;
 }
 
-const text = importFile("7");
+const text = importDayData("7");
 
 const lines = text.split("\n");
 console.log("Equations", lines.length);

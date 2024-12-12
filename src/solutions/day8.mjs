@@ -1,5 +1,5 @@
 "strict";
-import { importFile, writeFile } from "../utils/fileIO.mjs";
+import { importDayData, writeFile } from "../utils/fileIO.mjs";
 
 function findMatches(attenna, location, grid) {
   const ret = [];
@@ -50,7 +50,7 @@ function findMatches(attenna, location, grid) {
   return ret;
 }
 
-const text = importFile(8);
+const text = importDayData(8);
 
 const lines = text.split("\n");
 

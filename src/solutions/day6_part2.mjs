@@ -1,5 +1,5 @@
-import { importFile } from "../utils/fileIO.mjs";
-const text = importFile("6");
+import { importDayData } from "../utils/fileIO.mjs";
+const text = importDayData("6");
 
 const moveDirection = { up: 1, down: 2, left: 3, right: 4 };
 const obstical = "#";
